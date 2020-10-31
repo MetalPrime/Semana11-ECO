@@ -1,0 +1,63 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write{    
+    form{
+        background: burlywood;
+        border: 1px solid black ;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 350px;
+        padding: 10px;
+        border-radius: 10px;
+
+        *{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        label{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                border-radius: 10px;
+            }
+
+            .inputUser{
+
+            }
+
+            .inputPost{
+                height: 80px;
+            }
+
+            
+            }
+
+        .btnPublicar{
+            background-color: blue;
+            color: white;
+           }
+        }
+    }
+
+.post{
+background: yellow;
+display: flex;
+flex-direction: column;
+text-align: center;
+    }
+
+.publication{
+    border: 1px solid black;
+    &.__description{
+
+    }
+
+    &.__comment{
+        
+    }
+}

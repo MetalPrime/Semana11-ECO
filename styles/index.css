@@ -1,0 +1,64 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write form {
+  background: burlywood;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.write form * {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.write form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.write form label input {
+  border-radius: 10px;
+}
+
+.write form label .inputPost {
+  height: 80px;
+}
+
+.write form .btnPublicar {
+  background-color: blue;
+  color: white;
+}
+
+.post {
+  background: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.publication {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=index.css.map */
