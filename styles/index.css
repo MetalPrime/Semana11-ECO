@@ -73,8 +73,21 @@
   border-radius: 10px;
 }
 
+.publication__description {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
 .publication__btn {
   background-color: blue;
   color: white;
+}
+
+.publication__item {
+  border-radius: 10px;
+  background-color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=index.css.map */

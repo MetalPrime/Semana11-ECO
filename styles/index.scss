@@ -60,7 +60,8 @@ text-align: center;
         padding: 10px;
         border-radius: 10px;
     &__description{
-
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.527) ;
     }
 
     &__comment{
@@ -70,6 +71,14 @@ text-align: center;
     &__btn{
         background-color: blue;
             color: white;
+    }
+
+    &__item{
+        border-radius: 10px;
+        background-color:gray ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid black;
     }
 
 }
