@@ -45,19 +45,31 @@
     }
 
 .post{
-background: yellow;
 display: flex;
 flex-direction: column;
 text-align: center;
     }
 
 .publication{
+    background-color:skyblue ;
     border: 1px solid black;
-    &.__description{
+    display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+        width: 350px;
+        padding: 10px;
+        border-radius: 10px;
+    &__description{
 
     }
 
-    &.__comment{
+    &__comment{
         
     }
+
+    &__btn{
+        background-color: blue;
+            color: white;
+    }
+
 }
